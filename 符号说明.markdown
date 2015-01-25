@@ -1,0 +1,51 @@
+The set of variables that were estimated from these signals are: 
+
+- mean(): 平均值    	
+- std(): 标准差    
+- mad(): 中位数绝对差     
+- max(): 最大值    
+- min(): 最小值    
+- sma(): 信号幅值？  Signal magnitude area  
+- energy(): Energy measure. Sum of the squares divided by the number of values.     
+- iqr(): 四分位距    
+- entropy(): 信号熵      
+- arCoeff(): Autorregresion coefficients with Burg order      equal to 4   Burg order等于4的衰减系数（什么东西）		       	
+- correlation(): 信号之间的相关性            
+- maxInds(): index of the frequency component with largest magnitude最大量级频率分量的索引     
+- meanFreq(): Weighted average of the frequency components to obtain a mean frequency加权平均频率        
+- skewness(): skewness of the frequency domain signal频域信号的偏斜       
+- kurtosis(): kurtosis of the frequency domain signal 频域信号的峰度系数       
+- bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.      
+- angle(): Angle between to vectors.矢量之间的夹角   
+   
+----
+
+- tBodyAcc-XYZ    身体（线性）加速度
+- tGravityAcc-XYZ 重力加速度   
+- tBodyAccJerk-XYZ加加速度
+- tBodyGyro-XYZ角加速度
+- tBodyGyroJerk-XYZ角加加速度
+- tBodyAccMag   Euclidean norm计算出的加速度幅值    
+- tGravityAccMag 重力加速度幅值
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ 频域线性加速度
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag    
+
+---   
+subject id和active id分别对应这相应的名字
+
+
+
+
+
+
+
+
+
